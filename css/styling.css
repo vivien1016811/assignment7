@@ -1,0 +1,113 @@
+/*
+   File: /~vchow/assignment6/css/styling.css/
+   Author: Vivien Chow, UMass Lowell Computer Science Student
+   Course: 91.461 GUI Programming I
+   E-mail: vivien_chow@student.uml.edu
+   Assignment 7: Creating a Single-Page Navigation Interface
+   Date Created: September 21, 2014
+   Description: This is to style the webpage.
+   Updated by Vivien Chow on October 6, 2014 at 5:38 PM
+*/
+
+/*Set the properties of the name banner on top of the page.*/
+/*Background image of the banner is from the webpage dreamstime.com .*/
+.banner 
+{
+   top: 220px;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+/*Set the background color of the page.*/
+body{
+   background-color: #D7DFF9;
+}
+
+/*Set text properties of different sections of the page.*/
+h1, h2, h3, p{
+   font-family: 'Happy Monkey', cursive; /*Font used from google.com/fonts.*/
+   font-weight: bold;
+   width: 50%;
+   text-align: center;
+}
+
+/*Set properties of first level headers.*/
+h1{
+   color: #19198d;
+   font-size: 35px;
+}
+
+/*Set properties of second level headers.*/
+h2{
+   color: #384CC3;
+   font-size: 20px; 
+}
+
+/*Set properties of third level headers.*/
+h3{
+   color: #384CC3;
+   font-size: 18px; 
+}
+
+
+/*Set properties of texts in p(paragraph) tags.*/
+p{
+   color: royalblue;
+   font-size: 16px;
+}
+
+/*Set properties of texts in unordered lists.*/
+ul, li{
+   color: royalblue;
+   font-size: large;
+}
+
+/*Set properties to links in body content.*/
+ul{
+   font-family: 'Happy Monkey', cursive; /*Font used from google.com/fonts.*/
+}
+
+/*Set properties of the navigation div.*/
+#nav ul{
+   color: blue;
+   font-size: large;
+   border-bottom: 3px solid white;
+   height: 40px;
+   width: 100%;
+   padding: 0;
+   top: 0;
+   font: 15px "Tahoma", "Helvetica", "sans-serif";
+   list-style: none;   /*This removes the 'bullet points'. */
+   text-align: center;
+}
+
+/*Set specific properties to navigation links' items.*/
+#nav li{
+   display: inline-block;  /*This aligns the list items next to each other. */
+   padding-right: 10px;  
+   border-right: 3px solid white; /*This separates each item from another. */
+}
+
+/*Set properties of any links, including navigation links on the page.*/
+a:link, a:visited{
+   color: #2e8ae6;
+   font-weight: bold;
+}
+
+/*Set properties of vistied links.*/
+a:visited {
+   color: slateblue ;
+}
+
+/*Set link properties using dynamic pseudo-classes for links.*/
+a:hover {
+   text-decoration: none;
+   color: white;
+   background-color: skyblue;
+}
+
+/*Set properties of active links.*/
+a:active {
+   color: navy;
+   background-color: skyblue;
+}

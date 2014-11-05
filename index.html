@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+  <head>
+    <title>Vivien Chow</title>
+    <meta charset="utf-8">
+  
+    <!--
+      File: /~vchow/index.html
+      Author: Vivien Chow, UMass Lowell Computer Science Student
+      Course: 91.461 GUI Programming I
+      E-mail: vivien_chow@student.uml.edu
+      Assignment 7: Creating a Single-Page Navigation Interface
+      Date Created: September 21, 2014
+      Description: This is my homepage created for the GUI I course.
+                   It contains a brief introduction of myself, and
+                   there is a link to my contact info and future 
+                   assignments of the course.  
+      Updated by Vivien Chow on September 21, 2014 at 3:31 PM
+    -->
+     
+    <!-- Link to google fonts for happy monkey fonts used for the poem. -->
+    <link href='http://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet' type='text/css'> 
+     
+    <!-- Link to CSS for all webpages. -->
+    <link rel="stylesheet" type="text/css" href="/css/styling.css">
+     
+    <!-- Loads the jQuery library from the Google Content Delivery Network. -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+  </head>
+  
+  
+  <!-- Contents of the whole website is styled as followed: -->
+  <body>
+  
+    <!-- Name banner for the page. -->
+    <div class="banner"><img src="banner_name.jpg" alt="nameBanner"> 
+    </div>
+    <!-- End of banner div. -->
+    
+    
+    <div id="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#assignments">Assignments</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!-- W3C validation icon, code provided by W3C CSS Validation Service. -->
+        <li><a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                 src="http://jigsaw.w3.org/css-validator/images/vcss"
+                 alt="Valid CSS!" />
+            </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End of nav div. -->
+    
+    
+    <!-- Dynamic content will be placed here. -->
+    <div id="content"></div>
+    <!-- End of content div. -->
+    
+    
+    <!-- Load javascript at the end to make sure others are loaded first. -->
+    <script src="navigation.js"></script>
+    
+  </body>
+</html>
